@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Google Sans", sans-serif;
+}
+
+body {
+    background-color: rgb(30, 37, 53);
+    min-height: 100vh;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.3rem auto;
+    max-width: 1100px;
+    padding: 0 4rem;
+    
+}
+
+.logo {
+    height: 70px;
+    width: auto;
+}
+
+.navigation ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.navigation a:hover {
+    color: #00adb5;
+}
+
+hr {
+    opacity: 0.1;
+    border: none;
+    border-top: 1px solid #ffffff;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem auto;
+    max-width: 1050px;
+    padding: 0 2rem 0 5rem;
+}
+
+/* BLOCO DE TEXTO E SETA */
+.herosub {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    position: relative;
+}
+
+/* SETA COMPORTADA AO LADO */
+.arrow {
+    position: absolute;
+    left: -3.5rem;
+    top: 0.2rem;
+    height: 160px;
+    width: auto;
+}
+
+.name {
+    color: white;
+    font-size: 2.2rem;
+}
+
+.title {
+    font-size: 3rem;
+    color: #00adb5;
+}
+
+/* BOTÕES */
+.herobtns {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.hireme {
+    background-color: #00adb5;
+    color: #eeeeee;
+    border-radius: 24px;
+    text-decoration: none;
+    padding: 0.6rem 1.6rem;
+    font-weight: 500;
+    text-shadow: 0px 4px 4px  rgb(0, 0, 0, 0.5);
+}
+
+.cv {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.95rem;
+    border-radius: 24px;
+    background: rgba(57, 62, 70, 0.75);
+    gap: 0.5rem;
+    text-shadow: 0px 4px 4px rgb(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    padding: 0.5rem 1.5rem;
+
+}
+
+.cv:hover {
+    color: #00adb5;
+}
+
+/* IMAGEM DO HERO */
+.heroimg {
+    width: 350px;
+    height: auto;
+}
+
+/* About me */
+.aboutme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1050px;
+    margin: 4rem auto;
+    gap: 3rem;
+    padding: 0 2rem;
+}
+
+.aboutmeimg{
+    width: 350;
+    height: auto;
+    padding: 0.5rem 1.5rem;
+}
+
+.textcontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.texttitle{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 2rem;
+    padding: 5px;
+}
+
+.aboutname{
+    display: flex;
+    color: #eeeeee;
+
+}
+
+.abouttitle{
+    color:#00adb5
+
+}
+
+.aboutmepar{
+    color: rgb(227, 221, 221);
+    padding: 5px;
+    font-size: 18px;
+    text-align: justify;
+
+}
